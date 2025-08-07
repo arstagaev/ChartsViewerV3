@@ -22,6 +22,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtimeCompose)
             implementation("org.jfree:jcommon:1.0.24")
             implementation("org.jfree:jfreechart:1.5.3")
+            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.10.2")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -41,7 +42,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "ru.atrsx.chartviewer"
-            packageVersion = "1.0.0"
+            packageVersion = "1.1.0"
         }
     }
 }
