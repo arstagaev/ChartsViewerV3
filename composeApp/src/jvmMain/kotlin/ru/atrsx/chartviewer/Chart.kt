@@ -1,34 +1,23 @@
 package ru.atrsx.chartviewer
 
-import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.Window
-import androidx.compose.ui.window.application
 import ru.atrsx.chartviewer.koala.xygraph.XYGraph
 import ru.atrsx.chartviewer.koala.xygraph.rememberFloatLinearAxisModel
 import ru.atrsx.chartviewer.koala.style.LineStyle
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.SolidColor
-import com.sun.org.apache.xalan.internal.lib.ExsltStrings.padding
-import ru.atrsx.chartviewer.koala.Symbol
+import ru.atrsx.chartviewer.koala.xygraph.Point
+import ru.atrsx.chartviewer.koala.ExperimentalKoalaPlotApi
 import ru.atrsx.chartviewer.koala.gestures.GestureConfig
 import ru.atrsx.chartviewer.koala.line.LinePlot
-import ru.atrsx.chartviewer.koala.util.ExperimentalKoalaPlotApi
-import ru.atrsx.chartviewer.koala.xygraph.Point
 import ru.atrsx.chartviewer.koala.xygraph.autoScaleXRange
 import ru.atrsx.chartviewer.koala.xygraph.autoScaleYRange
-import java.awt.FileDialog
 import java.io.File
 
 /**
