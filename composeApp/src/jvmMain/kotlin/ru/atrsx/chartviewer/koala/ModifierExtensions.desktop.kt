@@ -12,6 +12,7 @@ import ru.atrsx.chartviewer.koala.gestures.GestureConfig
 import ru.atrsx.chartviewer.koala.gestures.applyPanLocks
 import ru.atrsx.chartviewer.koala.gestures.applyZoomLocks
 import ru.atrsx.chartviewer.koala.gestures.getMaxZoomDeviation
+import ru.atrsx.chartviewer.koala.util.ZoomFactor
 
 private const val ScrollDeltaMin = 0.75f
 private const val ScrollDeltaMax = 1.25f

@@ -6,7 +6,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.PointerEvent
 import androidx.compose.ui.unit.IntSize
 import ru.atrsx.chartviewer.koala.gestures.GestureConfig
-import ru.atrsx.chartviewer.koala.ZoomFactor
+import ru.atrsx.chartviewer.koala.util.ZoomFactor
 
 /**
  * Zoom gesture handler that enforces a uniform zoom scale across both axes

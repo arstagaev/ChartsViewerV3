@@ -1,4 +1,4 @@
-package ru.atrsx.chartviewer.koala
+package ru.atrsx.chartviewer.koala.util
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.Stable

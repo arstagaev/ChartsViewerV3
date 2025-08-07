@@ -11,7 +11,7 @@ import androidx.compose.ui.util.fastAny
 import ru.atrsx.chartviewer.koala.gestures.pan.PanFlingHandler
 import ru.atrsx.chartviewer.koala.gestures.pan.PanHandler
 import ru.atrsx.chartviewer.koala.gestures.zoom.ZoomHandler
-import ru.atrsx.chartviewer.koala.ZoomFactor
+import ru.atrsx.chartviewer.koala.util.ZoomFactor
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.currentCoroutineContext

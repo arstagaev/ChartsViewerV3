@@ -524,7 +524,7 @@ public interface XYGraphScope<X, Y> : HoverableElementAreaScope {
     ): Offset {
         return Offset(
             xAxisModel.computeOffset(point.x) * size.width,
-            size.height - yAxisModel.computeOffset(point.y) * size.height
+            (size.height - yAxisModel.computeOffset(point.y) * size.height)
         )
     }
 }

@@ -6,7 +6,7 @@ import androidx.compose.ui.input.pointer.PointerEvent
 import androidx.compose.ui.input.pointer.positionChanged
 import androidx.compose.ui.unit.Velocity
 import androidx.compose.ui.util.fastForEach
-import ru.atrsx.chartviewer.koala.ZoomFactor
+import ru.atrsx.chartviewer.koala.util.ZoomFactor
 import kotlin.math.abs
 import kotlin.math.sqrt
 

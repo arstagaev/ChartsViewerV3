@@ -9,7 +9,7 @@ import ru.atrsx.chartviewer.koala.gestures.GestureConfig
 import ru.atrsx.chartviewer.koala.gestures.applyZoomLocks
 import ru.atrsx.chartviewer.koala.gestures.getDistanceX
 import ru.atrsx.chartviewer.koala.gestures.getDistanceY
-import ru.atrsx.chartviewer.koala.ZoomFactor
+import ru.atrsx.chartviewer.koala.util.ZoomFactor
 
 /**
  * Zoom gesture handler that prioritizes a dominant zoom axis while restricting scaling on the orthogonal axis
@@ -56,6 +56,7 @@ internal class StickyAxisZoomHandler(
         if (currentCentroidSize == Offset.Zero || previousCentroidSize == Offset.Zero) {
             return ZoomFactor.Neutral
         }
+
         return ZoomFactor(
             x = currentCentroidSize.x / previousCentroidSize.x,
             y = currentCentroidSize.y / previousCentroidSize.y,

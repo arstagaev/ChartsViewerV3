@@ -3,7 +3,7 @@ package ru.atrsx.chartviewer.koala.gestures
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.PointerInputScope
 import androidx.compose.ui.unit.IntSize
-import ru.atrsx.chartviewer.koala.ZoomFactor
+import ru.atrsx.chartviewer.koala.util.ZoomFactor
 
 /**
  * Interface for handling multi-touch transform gestures, including zooming and panning
